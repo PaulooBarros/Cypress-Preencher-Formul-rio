@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Cor de fundo suave e bonita */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: #00796b; /* Cor do título */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #00796b; /* Cor das labels */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+.hidden {
+    display: none;
+}
+
+#mensagemSucesso,
+#mensagemErro {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#mensagemSucesso {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+#error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd; /* Borda da tabela */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px; /* Espaço inferior para separar de outros elementos */
+}
+
+th, td {
+    padding: 12px; /* Aumento de padding para espaço interno */
+    text-align: center;
+    overflow: hidden; /* Esconde o conteúdo extra que não cabe */
+    white-space: nowrap; /* Evita que o texto quebre para a próxima linha */
+    border: 1px solid #ddd; /* Bordas das células */
+}
+
+th {
+    background-color: #f0f0f0; /* Cor de fundo dos cabeçalhos */
+    color: #333; /* Cor do texto dos cabeçalhos */
+}
+
+td {
+    background-color: #fff; /* Cor de fundo das células */
+}
+
+/* Estilo alternado para linhas */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo alternada para linhas pares */
+}
